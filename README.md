@@ -45,3 +45,6 @@ To test NeRF trained on different datast:
 python run_nerf.py --config configs/{DATASET}.txt --render_only
 ```
 The training requests <=4G GPU memory. After training for `fern` 200k iterations (~5.5 hours on a single RTX2080), you can find the video at `logs/fern_test/fern_test_spiral_200000_rgb.mp4` and `logs/fern_test/fern_test_spiral_200000_disp.mp4`. 
+
+
+As for ground true, lego's original blendfile can be found [here](https://drive.google.com/file/d/1Fi_qRigSVQst2rA_DNOxflakVl1bBrJv/view?usp=sharing)
